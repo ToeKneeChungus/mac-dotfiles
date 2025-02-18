@@ -1,0 +1,30 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+
+#opacity = 0.30
+#opacity = 0.4
+opacity = 1
+blur = true
+
+#option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+
+size = 14
+
+
+#theme 
+[general]
+import = [
+    "~/.config/alacritty/catppuccin-frappe.toml"
+]
+
+
