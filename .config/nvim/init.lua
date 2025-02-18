@@ -40,7 +40,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 
 
-
-vim.keymap.set('n', '<leader>p', ":!python3 ~/.config/nvim/screenshot.py<CR>", {})
+-- Arch Screenshot Script
+-- vim.keymap.set('n', '<leader>p', ":!python3 ~/.config/nvim/screenshot.py<CR>", {})
 
 
