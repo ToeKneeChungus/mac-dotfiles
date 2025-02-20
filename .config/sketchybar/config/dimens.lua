@@ -2,7 +2,7 @@ local padding <const> = {
   background = 8,
   icon = 10,
   label = 8,
-  bar = 39,
+  bar = 20,
   left = 12,
   right = 12,
   item = 18,
@@ -12,7 +12,7 @@ local padding <const> = {
 local graphics <const> = {
   bar = {
     height = 36,
-    offset = 12,
+    offset = 0,
   },
   background = {
     height = 24,
